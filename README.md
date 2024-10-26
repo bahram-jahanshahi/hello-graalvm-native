@@ -21,3 +21,8 @@ sdk use java 21.0.3-graal
 mvn -DSkipTest -Pnative spring-boot:build-image
 ```
 
+## Run native image docker container
+```shell
+docker run -p 8080:8080 docker.io/library/hello-graalvm-native:0.0.1-SNAPSHOT
+```
+
