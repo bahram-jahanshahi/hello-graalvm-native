@@ -26,3 +26,5 @@ class NativeController {
 		return Map.of("Message", "I am native");
 	}
 }
+
+

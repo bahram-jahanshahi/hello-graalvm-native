@@ -12,3 +12,10 @@ sdk use java 21.0.3-graal
 ```shell
 mvn -Pnative native:compile 
 ```
+
+## Build native image with Docker (it's not tested yet)
+Docker Desktop must be running
+```shell
+mvn -Pnative spring-boot:build-image
+```
+
